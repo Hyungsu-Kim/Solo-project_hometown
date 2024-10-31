@@ -1,0 +1,169 @@
+body {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+
+}
+
+.first-block {
+    background-image: url("./images/marine.jpg");
+    background-size: cover;
+    width: 720px;
+    height: 340px;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.title {
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 5px;
+    background: #0077B6;
+    padding: 5px 12px;
+    border-radius: 6px;
+    text-shadow: 0 0 1px black;
+
+}
+
+
+.title2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0;
+    background: #00B4D8;
+    padding: 5px 28px;
+    border-radius: 6px;
+}
+
+
+
+.second-block {
+
+    background:#FAFAFA;
+    width: 720px;
+    height: 380px;
+    color: black;
+    margin: 0 auto;
+
+
+}
+
+.second-heading {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 39px 0 55px 0;
+    
+    
+}
+
+#second-contents {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+#circle:hover {
+    transform: scale(1.1);
+
+}
+
+.img-title {
+   
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    width: 180px;
+    
+    
+
+}
+
+.img-p {
+
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 200px;
+
+}
+
+.third-block {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    width: 720px;
+    height: 400px;
+    margin: 0 auto;
+}
+.card {
+    width: 400px;
+    height: 294px;
+    display: flex;
+    justify-content: space-around;
+    background: #e3f2fd;
+    border-radius: 10px;
+    border-bottom: 8px solid #00B4D8;
+    margin-top: 50px;
+}
+#profile {
+    width: 180px;
+    height: 249px;
+    border-radius: 10px;
+    margin: 22px 13px;
+    
+}
+
+
+
+#card-t {
+
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-right: 4px;
+    margin-top: 50px;
+    
+
+}
+
+#card-p {
+
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    margin-right: 11px;
+    margin-top: 14px;
+
+}
+
+#card-f {
+        
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 84px;
+
+}
